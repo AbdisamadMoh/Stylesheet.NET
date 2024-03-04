@@ -6,7 +6,7 @@ It allows you to export both minified and unminified css.
 
 **Stylesheet.Net** has extensive intellisense documentations.
 
-![](2024-03-04-01-36-16-image.png)
+![](https://github.com/AbdisamadMoh/Stylesheet.NET/raw/master/2024-03-04-01-36-16-image.png)
 
 ```
  Install-Package Stylesheet.NET -Version 1.0.0
@@ -152,7 +152,7 @@ a[target="_blank"]{
       }
   };
 
-  sheet1.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
+  sheet.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
 ```
 
 ## Export CSS
@@ -261,7 +261,7 @@ div {
 > 
 > Example: `ElementHover`, `ElementAfter`, `ElementNthChild `etc.
 > 
-> ![](2024-03-04-00-43-30-image.png)
+> ![](https://github.com/AbdisamadMoh/Stylesheet.NET/raw/master/2024-03-04-00-43-30-image.png)
 
 **Example**
 
@@ -325,47 +325,44 @@ In **Stylesheet.NET** you can define media query in two ways:
    
    **At-Rule builder** helps you define custom rules using code chain pattern. 
    
-    **At-Rule builder** implicity converts to string, so you don't need to cast or convert to string.
+   > **At-Rule builder** implicity converts to string, so you don't need to cast or convert to string.
    
    ```csharp
    string condition = new AtRule().Screen.And.MinWidth("0px").And.MaxWidth("319px");
    
-   
    //Will give you:
    // screen and (min-width: 0px) and (max-width: 319px)
-
-```
-Let's create media query with **At-Rule builder**:
-
-##### Css
-
-```css
-@media only screen and (max-width: 600px){
-  div{
-        width: 100%;
-        height: 100%;
-        display: grid;
+   ```
+   
+   Let's create media query with **At-Rule builder**:
+   
+   ##### Css
+   
+   ```css
+   @media only screen and (max-width: 600px){
+    div{
+    width: 100%;
+    height: 100%;
+    display: grid;
     }
-}
-```
-
-##### C#
-
-```csharp
-CSSSheet sheet1 = new CSSSheet()
-{
-    [AtRuleType.MediaQuery] = new MediaQuery(new AtRule().Only.Screen.And.MaxWidth("600px"))
-    {
-        ["div"] = new Element()
-        {
-            Width = "100%",
-            Height = "100%",
-            Display = DisplayOptions.Grid
-        }
-    }
-
-};
-```
+   }
+   ```
+   
+   ```csharp
+   CSSSheet sheet1 = new CSSSheet()
+   {
+       [AtRuleType.MediaQuery] = new MediaQuery(new AtRule().Only.Screen.And.MaxWidth("600px"))
+       {
+           ["div"] = new Element()
+           {
+               Width = "100%",
+               Height = "100%",
+               Display = DisplayOptions.Grid
+           }
+       }
+   
+   };
+   ```
 
 > **At-Rule builder** has all Css rules implemented. You can chain them as you want with no limit in length.
 
@@ -642,6 +639,7 @@ You can remove a fontface by fontfamily or you can clear all.
 
  sheet1.ClearFontFace();
 ```
+
 ## And More
 
 This guide covers the basics of **Stylesheet.NET**. To learn more and discover its full capabilities, feel free to experiment and explore its different features.
