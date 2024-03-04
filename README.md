@@ -8,7 +8,9 @@ It allows you to export both minified and unminified css.
 
 ![](2024-03-04-01-36-16-image.png)
 
-## 
+```
+ Install-Package Stylesheet.NET -Version 1.0.0
+```
 
 ## Quick Start
 
