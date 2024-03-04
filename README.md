@@ -325,7 +325,7 @@ In **Stylesheet.NET** you can define media query in two ways:
    
    **At-Rule builder** helps you define custom rules using code chain pattern. 
    
-   > **At-Rule builder** implicity converts to string, so you don't need to cast or convert to string.
+    **At-Rule builder** implicity converts to string, so you don't need to cast or convert to string.
    
    ```csharp
    string condition = new AtRule().Screen.And.MinWidth("0px").And.MaxWidth("319px");
