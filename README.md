@@ -329,7 +329,7 @@ In **Stylesheet.NET** you can define media query in two ways:
    
    ```csharp
    string condition = new AtRule().Screen.And.MinWidth("0px").And.MaxWidth("319px");
-   ```
+   
    
    //Will give you:
    // screen and (min-width: 0px) and (max-width: 319px)
