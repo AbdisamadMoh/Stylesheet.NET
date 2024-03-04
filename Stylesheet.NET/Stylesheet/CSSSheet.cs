@@ -81,6 +81,23 @@ namespace Stylesheet.NET
         /// Returns unminified CSS stylesheet as a string from the current object.
         /// </summary>
         /// <returns></returns>
+        public override string ToString()
+        {
+            return GenerateCss();
+        }
+        /// <summary>
+        /// Returns CSS stylesheet as a string from the current object.
+        /// </summary>
+        /// <param name="minified">Whether returned CSS should be minified</param>
+        /// <returns></returns>
+        public override string ToString(bool minified)
+        {
+            return GenerateCss(minified);
+        }
+        /// <summary>
+        /// Returns unminified CSS stylesheet as a string from the current object.
+        /// </summary>
+        /// <returns></returns>
         public override string GenerateCss()
         {
             return GenerateCss(false);
@@ -268,7 +285,7 @@ namespace Stylesheet.NET
                 throw new ArgumentNullException("AddFontFace");
             _fontfaces.Add(new Dictionary<string, string>()
             {
-                {"font-family", fontFamily},
+                {"font-family", $"\"{fontFamily}\""},
                 {"src", new Url(source)}
             });
         }

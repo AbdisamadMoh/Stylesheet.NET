@@ -37,7 +37,7 @@ namespace Test
                     Display = DisplayOptions.Flex,
                     JustifyContent = JustifyContentOptions.Center,
                     AlignItems = AlignItemsOptions.Center,
-                    Animation = "flash"
+                    Animation = "flash",
                 },
                 ["#dot"] = new ElementHover()
                 {
@@ -88,7 +88,26 @@ namespace Test
 
             sheet.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
 
-            richTextBox2.Text = sheet.GenerateCss();
+            richTextBox2.Text = sheet;
+
+
+            CSSSheet sheet2 = new CSSSheet();
+            sheet2[".head"] = new Element()
+            {
+                Height = "40px !important",
+                Width = "40px !important",
+            };
+            sheet2.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
+            Dictionary<string, string> _font = new Dictionary<string, string>()
+            {
+                {"font-family", "\"NoyhR-Black\"" },
+                {"src", "url(\"font/Noyh R Bold/NoyhR-Black.ttf\") format(\"truetype\")" }
+            };
+            sheet2.AddFontFace(_font);
+
+            sheet.RemoveFontFace("lilitaone-regular");
+            sheet.ClearFontFace();
+            richTextBox2.Text = sheet2;
         }
     }
 }

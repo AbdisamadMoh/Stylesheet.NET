@@ -4507,7 +4507,7 @@ namespace Stylesheet.NET
         }
 
         /// <summary>
-        /// The page-break-before property adds a page-break after an element. This property is used to control the printing of an HTML document. It does not work with absolute positioned elements or empty <div> elements.
+        /// The page-break-before property adds a page-break after an element. This property is used to control the printing of an HTML document. It does not work with absolute positioned elements or empty div elements.
         /// </summary>
         public PageBreakAfterOptions PageBreakAfter
         {

@@ -7,7 +7,6 @@ namespace Stylesheet.NET
     /// </summary>
     public class Layer : CSSSheet
     {
-        //https://www.tutorialspoint.com/css/css_at_rules.htm
         /// <summary>
         /// The name of this layer
         /// </summary>

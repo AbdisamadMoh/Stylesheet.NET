@@ -1,4 +1,31 @@
+
 @charset "UTF-8";
+
+@layer layer1 {
+    @layer layer2 {
+
+        .head {
+            display: flex;
+        }
+    }
+
+    .head {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@layer layer3 {
+
+    .head {
+        display: block;
+    }
+}
+
+.head {
+    height: 40px !important;
+    width: 40px !important;
+}
 
 @font-face {
     font-family: "lilitaone-regular";
@@ -56,4 +83,15 @@
     25%,75% {
         opacity: 0;
     }
+}
+
+div {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    background-color: #F16842;
+    border-radius: 5px;
+    display: block;
 }
