@@ -152,7 +152,7 @@ a[target="_blank"]{
       }
   };
 
-  sheet.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
+  sheet1.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
 ```
 
 ## Export CSS
