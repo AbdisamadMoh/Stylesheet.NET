@@ -640,3 +640,6 @@ You can remove a fontface by fontfamily or you can clear all.
 
  sheet1.ClearFontFace();
 ```
+## And More
+
+This guide covers the basics of **Stylesheet.NET**. To learn more and discover its full capabilities, feel free to experiment and explore its different features.
