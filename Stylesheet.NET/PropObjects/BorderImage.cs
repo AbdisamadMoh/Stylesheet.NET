@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderImage property specifies an image as border. Instead of a solid color, the border is drawn with an image.

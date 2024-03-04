@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The PerspectiveOrigin property sets the user position in 3D space. This position allows the browser to calculate the perpective of 3D elements. Only child elements will get the 3D effect when using this property.

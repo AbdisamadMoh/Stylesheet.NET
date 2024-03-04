@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundColor property specifies the background color. Background color values can be hex, rgb, hsl, rgba, hsla, or a color name. This property can also be set to transparent (no background).

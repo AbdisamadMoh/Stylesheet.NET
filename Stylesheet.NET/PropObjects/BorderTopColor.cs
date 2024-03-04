@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderTopColor property sets the color of the top border. Color values can be hex, rgb, hsl, rgba, hsla, or a color name. A border-top-style value is required for a border to show.

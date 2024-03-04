@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Transition property creates animations. It does this by changing property values over a period of time. Transition is a shorthand for several other Transition properties.

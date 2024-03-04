@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontVariant property displays text in small-caps font. Small caps are uppercase letters, but in a smaller font size.

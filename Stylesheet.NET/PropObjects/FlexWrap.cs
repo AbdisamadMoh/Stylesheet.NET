@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FlexWrap property sets how items wrap in a container. By default, flex items do not wrap and are packed in a single row.

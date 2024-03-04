@@ -1,4 +1,4 @@
-﻿namespace Stylesheet.NET
+﻿namespace StylesheetNET
 {
     /// <summary>
     /// Stylesheet import object

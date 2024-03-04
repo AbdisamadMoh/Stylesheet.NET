@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Overflow property handles content that exceeds the size of the container. Options include scroll, visible, hidden and others.

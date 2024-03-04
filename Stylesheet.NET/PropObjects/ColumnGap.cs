@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ColumnGap property specifies the space between columns. The gap value can be any length value, including percentages. This property is used by column, flexbox and grid layout systems.

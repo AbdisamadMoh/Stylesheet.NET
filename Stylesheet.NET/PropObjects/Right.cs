@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Right property specifies the horizontal position of a positioned element. Positioned elements have a position, such as absolute, sticky, etc. The effect of the Right setting depends on the position value.

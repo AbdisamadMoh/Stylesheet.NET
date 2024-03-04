@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Bottom property specifies the vertical position of a positioned element. Positioned elements are positioned as absolute, sticky, etc. The effect of the Bottom setting depends on the position value.

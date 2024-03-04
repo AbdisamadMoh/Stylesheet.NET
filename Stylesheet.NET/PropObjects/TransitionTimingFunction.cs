@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransitionTimingFunction sets the transition speed curve. The speed curve specifies the speed and acceleration of a transition. Options include ease-in, steps, and bezier.

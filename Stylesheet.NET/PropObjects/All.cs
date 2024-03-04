@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The All property resets all element properties. Their values are reset to their default or inherited values. This property is used to reset styles and start with a clean slate.

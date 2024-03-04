@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// BorderImageSlice sets how a border image is sliced. There are 9 slices: four corners, four edges, and the middle.

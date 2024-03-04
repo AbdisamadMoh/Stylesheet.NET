@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A BorderRadius adds rounded corners to an element. The BorderRadius can have one to four values, one for each corner.

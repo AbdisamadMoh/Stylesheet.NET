@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The UserSelect property sets whether text can be selected. This setting has no effect on the appearance of the element. Users commonly select and highlight text. Text that prevents this feels 'dead'.

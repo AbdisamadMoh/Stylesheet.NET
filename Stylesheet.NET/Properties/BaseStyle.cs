@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Represents the base css style of HTML element. It houses all the css properties of an element. 

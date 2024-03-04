@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// AnimationIterationCount sets the number of times an animation plays. To continually loop an animation, set the value to infinite. If no value is set, the animation will play only once.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The LineHeight property specifies the height of a line of text. Higher values create text with more space between the lines. And lower values create lines that are closer to each other.

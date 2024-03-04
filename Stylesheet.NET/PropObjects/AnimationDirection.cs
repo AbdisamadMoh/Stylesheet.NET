@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationDirection specifies the direction of the animation. Possible values are forward, backward, and alternate (back and forth).

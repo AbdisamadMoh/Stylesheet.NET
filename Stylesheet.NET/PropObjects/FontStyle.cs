@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontStyle property specifies the style of the font. Fonts can be styled as normal, italic, or oblique.

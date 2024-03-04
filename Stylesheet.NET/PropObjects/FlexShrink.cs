@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FlexShrink property sets the shrink factor for a flex item. This is relevant when items do not fit inside a container. FlexShrink sets the shrinkage relative to other items.

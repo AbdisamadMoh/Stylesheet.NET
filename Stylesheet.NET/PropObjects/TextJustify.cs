@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextJustify property sets the text justification method. Justification means that text is spread out to fill the available space. It does this by spacing words or characters. This property is only relevant when text-align:justified is set.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderColor property sets the color of the border. Color values can be hex, rgb, hsl, rgba, hsla, or a color name. A border-style value is required for a border to show.

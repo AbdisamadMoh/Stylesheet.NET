@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Represents a CSS Stylesheet. It is where you will write all your css.

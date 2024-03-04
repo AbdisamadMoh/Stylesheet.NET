@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontWeight property specifies the thickness of the text. Text can be displayed in light, normal, bold, bolder, etc. Values can be built-in names, or a number from 100 - 900.

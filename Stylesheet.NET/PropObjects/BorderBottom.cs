@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderBottom property adds a bottom border to an element. Borders can vary in width, line style, and color.

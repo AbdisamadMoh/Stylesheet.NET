@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Flex property is a shorthand for 3 Flex item properties: They are: Flex-grow, Flex-shrink, and Flex-basis. This property is commonly used to create responsive layouts.

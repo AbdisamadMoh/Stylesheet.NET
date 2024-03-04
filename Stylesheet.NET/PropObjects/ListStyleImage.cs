@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Markers are the bullets on a list with items. The ListStyleImage property uses an image as marker. The image marker displays as is, and cannot be resized.

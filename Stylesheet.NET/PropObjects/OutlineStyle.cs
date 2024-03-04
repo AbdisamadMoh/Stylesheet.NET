@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The OutlineStyle property specifies the style of the outline. An outline is a focus indicator that looks like a border. Outlines do not take up space and can overlap adjacent elements.

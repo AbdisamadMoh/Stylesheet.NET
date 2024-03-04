@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AlignContent property aligns items in a flex container. The alignment is along flex lines (horizontal virtual lines). A flex line works like a magnet, pulling items towards it.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A column rule is a line between columns in a multi-column layout. The ColumnRuleWidth property sets the width of this line. If no value is specified, it uses medium or 1px column width.

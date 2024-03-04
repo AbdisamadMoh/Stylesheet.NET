@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The OverflowY property handles content that exceeds the container height (y-direction). Possible values include hidden, visible, scroll and others.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationTimingFunction sets the animation speed curve. Options include: linear, ease, steps, and cubic-bezier. These functions describe the transition from one state to another.

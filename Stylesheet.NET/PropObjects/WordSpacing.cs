@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The WordSpacing property specifies the spacing between words. This property accepts any CSS length value, such as, px, %, em, and others.

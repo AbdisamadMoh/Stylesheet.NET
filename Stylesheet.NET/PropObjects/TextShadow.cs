@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextShadow property adds a shadow effect to text. The details of the shadow are specified by a number of values. These include x-offset, y-offset, blur-radius, and color.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Left property specifies the horizontal position of a positioned element. Positioned elements have a position, such as absolute, sticky, etc. The effect of the Left setting depends on the position value.

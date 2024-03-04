@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationPlayState sets the animation play state. Possible values include paused and running. The default is running.

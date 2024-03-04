@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontStretch property widens or narrows text. The font used must support condensed and expanded font faces. Many fonts do not support these separate faces.

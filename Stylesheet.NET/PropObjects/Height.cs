@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Height property specifies the Height of an element. Height is calculated without the padding, margin, or border. This property accepts any length value (e.g. px, %, cm)

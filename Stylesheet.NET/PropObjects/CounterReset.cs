@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A counter is an incrementing variable that can be used in CSS. The CounterReset property resets a CSS counter value. This property works together with counter-increment and content.

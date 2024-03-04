@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Float property aligns an element in a container. An element can align (Float) to the left or the right. This property is useful for images with wrapped text.

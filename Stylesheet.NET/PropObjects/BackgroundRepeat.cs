@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundRepeat property repeats a background image. Options include: repeat horizontally, vertically, tiled, or never.

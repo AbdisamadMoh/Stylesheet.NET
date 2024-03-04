@@ -4,8 +4,6 @@
 
 It allows you to export both minified and unminified css.
 
-
-
 **Stylesheet.Net** has extensive intellisense documentations.
 
 ![](C:\Users\Asama\AppData\Roaming\marktext\images\2024-03-04-01-36-16-image.png)
@@ -80,6 +78,8 @@ a[target="_blank"]{
 ##### C#
 
 ```csharp
+  using StylesheetNET;
+  
   CSSSheet sheet1 = new CSSSheet()
   {
       Charset = "UTF-8",
@@ -196,8 +196,6 @@ div {
 }
 ```
 
-
-
 ##### C#
 
 ```csharp
@@ -229,7 +227,7 @@ div {
    {
       Height = "10px",
       //Width = "10px",
- 
+
       ["width"] = "10px",
       ["my_custom_property"] = "some css values"
    }
@@ -311,13 +309,9 @@ p::after{
   };
 ```
 
-
-
 ## At-Rules
 
 **At-Rules** Allow for defining custom styles or behavior using directives like `@keyframes` for animations, `@media` for responsive layouts and `@import` and `@layer` for including external styles, and others.
-
-
 
 ### Media queries
 
@@ -333,49 +327,45 @@ In **Stylesheet.NET** you can define media query in two ways:
    
    ```csharp
    string condition = new AtRule().Screen.And.MinWidth("0px").And.MaxWidth("319px");
-   
-   
+   ```
+
    //Will give you:
    // screen and (min-width: 0px) and (max-width: 319px)
-   ```
-   
-   
-   
-   Let's create media query with **At-Rule builder**:
-   
-   ##### Css
-   
-   ```css
-   @media only screen and (max-width: 600px){
-     div{
-           width: 100%;
-           height: 100%;
-           display: grid;
-       }
-   }
-   ```
-   
-   ##### C#
-   
-   ```csharp
-   CSSSheet sheet1 = new CSSSheet()
-   {
-       [AtRuleType.MediaQuery] = new MediaQuery(new AtRule().Only.Screen.And.MaxWidth("600px"))
-       {
-           ["div"] = new Element()
-           {
-               Width = "100%",
-               Height = "100%",
-               Display = DisplayOptions.Grid
-           }
-       }
-   
-   };
-   ```
-   
-   > **At-Rule builder** has all Css rules implemented. You can chain them as you want with no limit in length.
 
+```
+Let's create media query with **At-Rule builder**:
 
+##### Css
+
+```css
+@media only screen and (max-width: 600px){
+  div{
+        width: 100%;
+        height: 100%;
+        display: grid;
+    }
+}
+```
+
+##### C#
+
+```csharp
+CSSSheet sheet1 = new CSSSheet()
+{
+    [AtRuleType.MediaQuery] = new MediaQuery(new AtRule().Only.Screen.And.MaxWidth("600px"))
+    {
+        ["div"] = new Element()
+        {
+            Width = "100%",
+            Height = "100%",
+            Display = DisplayOptions.Grid
+        }
+    }
+
+};
+```
+
+> **At-Rule builder** has all Css rules implemented. You can chain them as you want with no limit in length.
 
 2. **Custom css**
 
@@ -413,8 +403,6 @@ CSSSheet sheet1 = new CSSSheet()
 ```
 
 > <mark>Don't add `@media` as the library adds that for you.</mark>
-
-
 
 ## Keyframes
 
@@ -468,8 +456,6 @@ CSSSheet sheet1 = new CSSSheet()
 };
 ```
 
-
-
 ## Import
 
 The `@import` at-rule in CSS enables the inclusion of styles from external stylesheets into the current stylesheet.
@@ -486,8 +472,6 @@ The style can be imported from local or url.
         height: 40px !important;
         width: 40px !important;
 }
-
-
 ```
 
 ##### C#
@@ -603,8 +587,6 @@ sheet.RemoveLayer("layer1");
 sheet.RemoveLayer("layer3");
 ```
 
-
-
 ## FontFace
 
 The `@font-face` CSS at-rule allows developers to add custom fonts into their web pages. These fonts can be loaded from either a remote server or a locally installed font on the user's device.
@@ -638,9 +620,9 @@ The `@font-face` CSS at-rule allows developers to add custom fonts into their we
      Height = "40px !important",
      Width = "40px !important",
  };
- 
+
  sheet1.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
- 
+
  Dictionary<string, string> _font = new Dictionary<string, string>()
  {
      {"font-family", "\"NoyhR-Black\"" },
@@ -655,6 +637,6 @@ You can remove a fontface by fontfamily or you can clear all.
 
 ```csharp
  sheet1.RemoveFontFace("lilitaone-regular");
- 
+
  sheet1.ClearFontFace();
 ```

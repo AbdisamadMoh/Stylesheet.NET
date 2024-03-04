@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Width property sets an element's Width. Element Width is calculated without the padding, margin, or border. This property accepts any valid CSS length value (e.g. px, %, cm)

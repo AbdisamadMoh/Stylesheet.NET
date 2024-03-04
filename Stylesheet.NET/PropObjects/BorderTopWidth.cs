@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A BorderTopWidth defines the width of the tpp border. The width is set as a pixel value, or as thin, medium, or thick.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderRightColor property sets the color of the right border. Color values can be hex, rgb, hsl, rgba, hsla, or a color name. A border-right-style value is required for a border to show.

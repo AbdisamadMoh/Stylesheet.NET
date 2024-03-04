@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A BorderTopRightRadius sets the top right corner radius. This property gives the element a rounded border effect.

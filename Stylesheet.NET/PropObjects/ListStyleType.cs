@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Markers are the bullets or numeric values on a list with items. The ListStyleType property defines the type of marker.

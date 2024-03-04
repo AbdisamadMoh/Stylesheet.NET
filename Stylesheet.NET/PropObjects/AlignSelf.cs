@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AlignSelf property aligns an item in a flex container. This property overides the container‘s align-items value.

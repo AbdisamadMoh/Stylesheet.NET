@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// BorderBottomWidth defines the width of the bottom border. The width is set as a pixel value, or as thin, medium, or thick.

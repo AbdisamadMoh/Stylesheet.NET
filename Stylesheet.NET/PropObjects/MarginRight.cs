@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Margin is the spacing outside an element. The MarginRight property specifies the right margin of an element.

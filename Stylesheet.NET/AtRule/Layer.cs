@@ -1,6 +1,6 @@
 ﻿
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Stylesheet layer object

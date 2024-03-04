@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderRight property adds a right border to an element. Borders can vary in width, line style, and color.

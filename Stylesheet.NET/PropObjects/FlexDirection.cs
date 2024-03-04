@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// FlexDirection specifies the the pack direction of flex items. Items can be packed row-wise, column-wise, and in reverse order. By default, flex items are packed in rows.

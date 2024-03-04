@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Direction property specifies the text writing Direction. This property is useful for languages that are written right-to-left. These include Urdu, Arabic, Kurdish, Persian, and Hebrew.

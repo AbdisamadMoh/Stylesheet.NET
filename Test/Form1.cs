@@ -1,4 +1,4 @@
-using Stylesheet.NET;
+using StylesheetNET;
 namespace Test
 {
     public partial class Form1 : Form

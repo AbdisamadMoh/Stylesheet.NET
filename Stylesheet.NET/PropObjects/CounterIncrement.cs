@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The CounterIncrement property increases a CSS counter value. This property works with counter-reset and content properties.

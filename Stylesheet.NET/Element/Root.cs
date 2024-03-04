@@ -1,4 +1,4 @@
-﻿namespace Stylesheet.NET
+﻿namespace StylesheetNET
 {
     /// <summary>
     /// The Root matches the document's root element. In HTML, the root element is always the html element.

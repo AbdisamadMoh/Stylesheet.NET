@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The JustifyContent property aligns items in a flex container. This property only has effect when space is available. The grid layout system can also use this property.

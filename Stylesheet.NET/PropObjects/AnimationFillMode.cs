@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// AnimationFillMode defines a style for when the animation stops. This can be before or after the animation, or both.

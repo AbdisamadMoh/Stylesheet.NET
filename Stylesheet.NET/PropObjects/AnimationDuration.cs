@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationDuration sets the timespan of an animation cycle. The value is defined in seconds (s) or milliseconds (ms).

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Represents the css style of HTML element. It houses all the css properties of an element. 

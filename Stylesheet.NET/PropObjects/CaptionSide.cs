@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The CaptionSide property sets the position of a table caption. Options are the top or bottom of the table. By default, the caption is located at the bottom.

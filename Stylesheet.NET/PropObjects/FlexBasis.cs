@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FlexBasis property sets the initial width of a flex item. Flex items are elements inside a flex container.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A text decoration is an underline, an overline, or a strike-through line. The TextDecoration property adds one of these lines to text. The lines can be customized with different styles and colors.

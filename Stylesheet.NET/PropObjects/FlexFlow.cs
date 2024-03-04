@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FlexFlow property is a shortcut for two flex properties. They are flex-direction and flex-wrap.

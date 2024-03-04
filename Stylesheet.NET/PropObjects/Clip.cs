@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Clip property defines the visible region of an image. It does this by Clipping (or cropping) the element. This only works with position:absolute or position:fixed settings.

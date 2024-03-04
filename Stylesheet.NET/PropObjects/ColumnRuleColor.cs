@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A column rule is a line between columns in a multi-column layout. The ColumnRuleColor property sets the color of this line. Color values can be hex, rgb, hsl, rgba, hsla, or a color name.

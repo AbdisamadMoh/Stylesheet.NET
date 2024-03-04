@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderLeftColor property sets the color of the left border. Color values can be hex, rgb, hsl, rgba, hsla, or a color name. A border-left-style value is required for a border to show.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundBlendMode property blends background layers together. This property may include multiple images to be blended. Background images can also blend with a background color.

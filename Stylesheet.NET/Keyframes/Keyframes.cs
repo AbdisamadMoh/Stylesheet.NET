@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Represents Css keyframes

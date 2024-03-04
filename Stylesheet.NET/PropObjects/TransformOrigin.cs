@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransformOrigin property defines the origin of the transformation. The origin is the reference point for the transformation calculations. By default, the origin is located at (0,0), or (0,0,0) for 3D transformations.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Border property adds a Border to an element. Borders can vary in width, line style, and color.

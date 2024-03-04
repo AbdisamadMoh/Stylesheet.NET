@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ZIndex property defines the element‘s vertical stack order. With overlapping elements, those with the highest value display in front. And those with lower values display behind the other elements.

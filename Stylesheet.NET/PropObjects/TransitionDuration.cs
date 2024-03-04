@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransitionDuration property specifies the time a transition takes. The duration is specified in seconds (s) or in milliseconds (ms). With a value of 0, no transition will occur.

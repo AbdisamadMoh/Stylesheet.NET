@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextAlign property sets the text's horizontal alignment. Options include left, center, right, and justify. By default, text is left aligned.

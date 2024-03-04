@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A text decoration is an underline, an overline, or a strike-through line. The TextDecorationColor property specifies the color of the line. Color values can be hex, rgb, hsl, rgba, hsla, or a color name.

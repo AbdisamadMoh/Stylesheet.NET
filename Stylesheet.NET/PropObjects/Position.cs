@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Position property specifies that an element is Positioned. Positioned elements do not participate in the standard page flow. Options are: static, relative, absolute, fixed, or sticky.

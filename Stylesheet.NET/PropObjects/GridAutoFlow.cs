@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridAutoFlow specifies the placement of items in a grid. By default, grid items will flow in rows, from left to right. Other options include column, row dense, etc.

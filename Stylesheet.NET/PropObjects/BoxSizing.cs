@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BoxSizing property specifies how width and height are calculated. By default, padding and borders are excluded from these calculations. Element sizes may be calculated with or without padding and border values.

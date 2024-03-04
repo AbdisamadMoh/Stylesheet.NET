@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationName references a keyframes name. @keyframes rules specify the animation conditions. This is the animation that will play.

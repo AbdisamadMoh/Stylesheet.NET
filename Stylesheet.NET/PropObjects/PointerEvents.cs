@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The PointerEvents property sets whether an element responds to pointer events. Pointer events includes hover or active states, clicking events, touching events, etc. Most PointerEvents values are relevant for SVG images only.

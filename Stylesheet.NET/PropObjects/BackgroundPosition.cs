@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundPosition sets the background image position. Possible values are left, right, center, percentage, pixels, and others. The default position is top left (0 0).

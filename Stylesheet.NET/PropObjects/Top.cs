@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Top property specifies the vertical position of a positioned element. Positioned elements have a position, such as absolute, sticky and others. The effect of the Top setting depends on the position value.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AnimationDelay property delays the animation before it starts. Its value is defined in seconds (s) or milliseconds (ms).

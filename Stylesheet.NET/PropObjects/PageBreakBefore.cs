@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The PageBreakBefore property adds a page-break before an element. This property is used to control the printing of an HTML document. It does not work with absolute positioned elements or empty <div> elements.

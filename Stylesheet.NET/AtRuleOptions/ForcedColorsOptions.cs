@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Gets Predefined options for <c>ForcedColors</c> media query feature.

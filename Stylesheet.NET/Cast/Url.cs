@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Css Url object. Equavalent to url(...) in css.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ColumnCount property partitions an element into columns. This property is used to create columns for long text content. Examples include articles, news, blogs, essays, and more.

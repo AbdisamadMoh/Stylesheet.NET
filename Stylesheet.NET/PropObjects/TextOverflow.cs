@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextOverflow property sets how overflowing text is handled. Options include clip, ellipsis, and others. white-space:nowrap and overflow:hidden are required to make it work.

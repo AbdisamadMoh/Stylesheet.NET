@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The VerticalAlign property sets the element's vertical alignment. Vertical alignment only affects inline, inline-block, and table-cell boxes. Elements can be aligned at the top, bottom, and some values in between.

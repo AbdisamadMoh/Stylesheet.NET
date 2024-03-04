@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ColumnSpan property enables an element to span across columns. This property is used by headings that span multi-column layouts.

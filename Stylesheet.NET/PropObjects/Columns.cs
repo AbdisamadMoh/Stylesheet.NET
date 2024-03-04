@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Columns property divides an element into Columns. Its value includes a min column width and a number of Columns.

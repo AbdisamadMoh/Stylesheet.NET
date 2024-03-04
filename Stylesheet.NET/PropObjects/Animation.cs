@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Animation property defines an Animation. It is a shorthand property for several Animation properties. These include <see cref="AnimationDuration"/>, <see cref="AnimationDirection"/>, and others.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The MixBlendMode property specifies how an element's content should blend with its direct parent background.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// LetterSpacing specifies the spacing between text characters. This property accepts any length value, such as, px, pt, em, etc. Both positive and negative values are allowed.

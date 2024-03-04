@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Kerning is the spacing between letters. It's part of the font file. It can make text easier and more pleasing to read. The FontKerning property enables kerning.

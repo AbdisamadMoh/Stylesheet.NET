@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     [Flags]
     public enum PseudoType

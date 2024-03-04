@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Margin is spacing added to the outside of an element. The MarginTop property specifies the top margin of an element.

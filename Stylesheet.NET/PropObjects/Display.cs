@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Display property sets an element's Display behavior. Common values include block, inline, flex, and grid. Its value determines how the element participates in the page flow.

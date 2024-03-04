@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransformStyle defines how child elements are rendered in 3D space. Child elements can be positioned in 3D space or they can be flattened. This setting only applies to elements that take part in 3D transformations.

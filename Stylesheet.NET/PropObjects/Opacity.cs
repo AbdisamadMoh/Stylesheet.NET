@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Opacity property defines the transparency of an element. It specifies how much of the background is visible through the element. Opacity values range from 0 (transparent) to 1 (opaque).

@@ -1,4 +1,4 @@
-﻿namespace Stylesheet.NET
+﻿namespace StylesheetNET
 {
 
     public abstract class Pseudo : Element

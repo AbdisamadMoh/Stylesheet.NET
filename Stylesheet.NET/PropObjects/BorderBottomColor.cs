@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderBottomColor property sets the bottom border color. Color values can be hex, rgb, hsl, rgba, hsla, or a color name. A border-bottom-style value is required for any border to show.

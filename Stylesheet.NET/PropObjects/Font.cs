@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Font property specifies several Font styling settings. These include Font, color, height, style, weight, and more.

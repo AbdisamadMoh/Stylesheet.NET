@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Color property specifies the text Color of an element. Text decorations, such as underlines inherit the same Color. Color values can be hex, rgb, hsl, rgba, hsla, or a Color name.

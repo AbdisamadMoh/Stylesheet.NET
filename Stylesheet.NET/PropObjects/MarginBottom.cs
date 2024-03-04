@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Margin is the spacing outside an element. The MarginBottom property specifies the bottom margin of an element.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The MaxWidth property sets the maximum width of an element. It prevents an element from becoming any larger than the specified value.

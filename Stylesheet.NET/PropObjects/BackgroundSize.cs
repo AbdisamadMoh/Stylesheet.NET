@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundSize property sets the background image size. It accepts two values: width and height.

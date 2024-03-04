@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ColumnWidth property sets the minimum width of a column. The browser then calculates the number of columns to fit the element. If the value exceeds the element width, a single column is rendered.

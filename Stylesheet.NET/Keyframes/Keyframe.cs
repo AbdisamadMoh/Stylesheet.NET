@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Represents a keyframe. A keyframe can be a percent, a word etc. E.g. 0%, 40%, 100%, to, from etc.

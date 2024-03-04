@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The MaxHeight property sets the maximum height of an element. It prevents an element from becoming any larger than the specified value.

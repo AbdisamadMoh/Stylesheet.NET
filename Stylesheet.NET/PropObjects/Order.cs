@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Flex is a layout system that arranges items in rows and columns. The position of each item can be specified with the Order property. It sets the item Order relative to the other items inside the container.

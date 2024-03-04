@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridColumnStart sets the start column of a grid item. Its value can also be a range of columns with span n. Columns with insufficient or no items will be left blank or empty.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// BackgroundOrigin sets the origin position of the background image. The origin can align with content-box, padding-box, or border-box.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Perspective property gives 3D elements a Perspective view. Perspective defines how far away the object is from the user. This property is assigned to a parent element. Only child elements will get a Perspective view.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransitionDelay specifies a time delay before the transition starts. Transition delay can be set in seconds (s) or in milliseconds (ms). By default, transitions are played immediately, i.e. upon page load.

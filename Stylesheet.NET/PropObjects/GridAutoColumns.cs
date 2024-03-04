@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridAutoColumns property sets the column sizes in a grid. The value represents the minimum width of a grid item. Options include a length value, or auto, min-content, minmax, etc.

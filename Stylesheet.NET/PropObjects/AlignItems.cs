@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The AlignItems property aligns, and evenly spaces, items. The items are arranged inside a flex container.

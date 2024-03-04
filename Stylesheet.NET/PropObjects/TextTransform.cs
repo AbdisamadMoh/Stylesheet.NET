@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextTransform property specifies the casing of the font. Options include none, uppercase, lowercase, and capitalized.

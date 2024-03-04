@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Grid is a layout system that uses a grid with rows and columns. A GridTemplate defines rows, columns, and areas in a grid layout. It's a shorthand for 3 properties that define rows, columns, and areas.

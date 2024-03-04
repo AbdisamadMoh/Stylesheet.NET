@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Grid property defines a Grid layout. It specifies rows, columns, and areas by name and position. This property is a shorthand for several Grid settings.

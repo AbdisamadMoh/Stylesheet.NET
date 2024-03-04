@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// BorderImageRepeat specifies how a border image displays. Possible values are repeat, round, stretch, etc.

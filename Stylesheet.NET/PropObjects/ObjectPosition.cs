@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ObjectPosition defines an offset for an image or video. The effect is that the image appears offset in its own container. It accepts both positive and negative values.

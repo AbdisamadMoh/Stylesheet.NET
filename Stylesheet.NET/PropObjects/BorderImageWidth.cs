@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderImageWidth property sets the image border width. It accepts any length value, such as, px, %, em, etc. If no value is provided, it inherits the border-width value.

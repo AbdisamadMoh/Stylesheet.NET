@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextIndent property sets the indentation of text. Indentation is extra space that is added before the first line of text. This property accepts any CSS length value, such as, px, %, em, and others.

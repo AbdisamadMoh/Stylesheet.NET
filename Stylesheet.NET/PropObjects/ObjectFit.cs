@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ObjectFit property specifies how an image fits its container. The image may be scaled down, shown fully, or cropped to make it fit. The object-position property is often used to set the image position.

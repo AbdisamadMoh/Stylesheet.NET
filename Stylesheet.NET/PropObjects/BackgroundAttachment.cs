@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundAttachment sets the background scroll behavior. Possible values include fixed or scroll. A fixed background stays at a fixed position, relative to the viewport. A scroll background scrolls with the page.

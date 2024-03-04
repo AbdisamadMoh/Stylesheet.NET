@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridRowEnd property sets the end row for a grid item. The value can also be a range of rows with a span n value Rows with insufficient or no items will be left blank or empty.

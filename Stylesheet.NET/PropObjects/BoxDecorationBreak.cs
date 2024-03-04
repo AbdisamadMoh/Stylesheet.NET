@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A BoxDecorationBreak sets the style of element fragments. Fragments are the pieces that occur when an in-line element does not fit inside its container and needs to wrap.

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// AtRule query builder.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Filter property adds visual effects to images. Filter effects include blur, color shift, grayscale, drop-shadow, etc. The Filter property can also be used for backgrounds and borders.

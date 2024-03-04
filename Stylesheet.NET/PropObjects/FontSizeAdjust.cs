@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontSizeAdjust property gives you better control of the font size when the first selected font is not available.

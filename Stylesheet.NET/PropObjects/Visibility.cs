@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Visibility property specifies whether an element is visible or hidden. When hidden the element still occupies the same space on the page.

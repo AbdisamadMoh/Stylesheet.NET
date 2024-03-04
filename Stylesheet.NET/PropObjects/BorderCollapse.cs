@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderCollapse property sets how table borders display. Possible values are separate and collapse. By default, table borders are separate.

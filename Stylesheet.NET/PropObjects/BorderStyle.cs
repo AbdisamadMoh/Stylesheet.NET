@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderStyle property sets the style of the border. It accepts one to four values for top, right, bottom, and left style. A BorderStyle value is required for any border to display.

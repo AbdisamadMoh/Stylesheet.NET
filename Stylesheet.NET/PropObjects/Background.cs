@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Background property defines the Background of an element. This can include a color, an image, a color gradient, and more.

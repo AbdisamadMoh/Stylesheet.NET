@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Hyphens property specifies how words break at the end of a line. One option is to hyphenate, with a hyphen (-), at specified text positions. Another is to disallow hyphenation, or let the browser handle it entirely.

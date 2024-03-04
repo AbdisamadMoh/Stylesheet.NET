@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     internal static class Keywords
     {

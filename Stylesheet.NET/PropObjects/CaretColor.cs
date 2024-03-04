@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The caret is the blinking indicator in input elements. The CaretColor property sets the color of the caret. Color values can be hex, rgb, hsl, rgba, hsla, or a color name.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Content property inserts Content before or after an element. It uses the ::before and ::after pseudo-elements with this. Content can be a string, a symbol, or an image.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TransitionProperty property specifies the property to animate. Multiple properties can be specified with a comma separated list. If no property is specified, all animatable properties will transition.

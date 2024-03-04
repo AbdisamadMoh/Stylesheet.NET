@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Clear property removes the float effect. After Clearing the page flow will return back to normal.

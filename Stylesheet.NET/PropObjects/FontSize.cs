@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontSize property defines the text size. It accepts any length value, such as, px, %, em, and others. Keywords, such as, small, larger, and x-large are also accepted.

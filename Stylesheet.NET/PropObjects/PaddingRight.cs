@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Padding is the space between the content and the border of an element. The PaddingRight property adds spacing to the right of the element. It accepts any length value, such as, px, %, em, etc.

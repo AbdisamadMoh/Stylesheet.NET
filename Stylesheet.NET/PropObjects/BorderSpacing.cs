@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// BorderSpacing sets the table cell border spacing. This property is used for table cells only.

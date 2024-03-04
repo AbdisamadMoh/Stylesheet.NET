@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundClip property extends the background inside the element. The clipping can extend to the content-box, padding-box, or border-box.

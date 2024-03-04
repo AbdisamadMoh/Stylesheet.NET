@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The MinHeight property sets the minimum height of an element. It prevents an element from becoming any smaller than the specified value. This property is used when the content is smaller than MinHeight, otherwise it has no effect.

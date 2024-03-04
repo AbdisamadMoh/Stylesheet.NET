@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BoxShadow property adds a shadow effect to an element. An element can have one or more box shadows.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// When a word does not fit its container it wraps onto the next line. The WordWrap property specifies how words break and wrap. It does not specify where the break occurs; for that you use <wbr>.

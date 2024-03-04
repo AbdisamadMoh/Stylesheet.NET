@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// Markers are the bullets on a list with items. The ListStylePosition property specifies a marker position. They can be displayed inside or outside the list items.

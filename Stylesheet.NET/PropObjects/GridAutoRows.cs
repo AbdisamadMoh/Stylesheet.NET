@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridAutoRows property sets the row sizes in a grid. The value represents the minimum height of a grid item. Values include a length value, or auto, min-content, etc.

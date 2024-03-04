@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A column rule is a line between columns in a multi-column layout. The ColumnRule property is a shorthand property that specifies the style, width, and color.

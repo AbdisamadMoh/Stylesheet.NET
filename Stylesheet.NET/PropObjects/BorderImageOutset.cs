@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderImageOutset property sets a border image outset. It specifies how far the image extends beyond the border. Values are specified in pixels or in numbers where 1 unit is equal to the border width.

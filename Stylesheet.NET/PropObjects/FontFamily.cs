@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FontFamily property specifies the font to use for text. The value can be any number of font names. All but the first font are fallback fonts. A fallback will be used if the first font is not supported.

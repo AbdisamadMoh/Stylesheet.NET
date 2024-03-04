@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ColumnFill property defines how columns are filled with text. One option is balance, in which column heights are equal. Another is auto, in which columns are filled by height first.

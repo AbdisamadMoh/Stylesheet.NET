@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Quotes property sets the quotation marks to use for quotations. It accepts any kind of quotation mark: ", ', ‘, ’, “, ”, ‹, ›, «, », etc. This value overrides the default which is a pair of double Quotes ("").

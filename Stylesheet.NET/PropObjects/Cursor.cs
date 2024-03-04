@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Cursor property defines a mouse Cursor for an element. The Cursor value can be a keyword or an image. The Cursor appears when the pointer hovers over the element.

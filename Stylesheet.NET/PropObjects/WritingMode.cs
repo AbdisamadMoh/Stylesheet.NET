@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The WritingMode property writes text horizontally or vertically. This is important for languages where text flows vertically (Chinese, Korean, etc.). For other languages WritingMode can help with page design.

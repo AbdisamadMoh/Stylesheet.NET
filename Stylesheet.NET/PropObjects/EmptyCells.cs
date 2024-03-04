@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The EmptyCells property sets borders on empty table cells. The setting only affects the borders, not the space the cells occupy.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The GridColumnEnd property sets the end column for a grid item. The value can also be a range of columns with a span n value Columns with insufficient or no items will be left blank or empty.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The WhiteSpace property handles WhiteSpace inside an element. It specifies whether WhiteSpace should collapse (into a single space). And whether lines should wrap at the end of a line.

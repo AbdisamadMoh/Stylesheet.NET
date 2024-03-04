@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TextAlignLast property aligns the last line of a block of text. Options include left, center, right, justify, and others. Not all browsers support this property.

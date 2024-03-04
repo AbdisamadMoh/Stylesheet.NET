@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The ScrollBehavior property sets the scroll animation style. Scrolling can be instant, or it can be an animated scroll to the target. Not all browser support this property.

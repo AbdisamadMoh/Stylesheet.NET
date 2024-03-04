@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The OverflowX property handles content that exceeds the container width (x-direction) Possible values include hidden, visible, scroll and others.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The TableLayout property specifies the table layout algorithm. This algorithm calculates the table, column, and cell widths. This property informs the browser how to best render a table.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The WordBreak property sets how words break at the end of a line. By default, a line of text only breaks at a space or a hyphen position. To insert hyphens (-) at the end of a break, add the hyphens property.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The Transform property adds a Transformation to an element. This property allows you to rotate, scale, move, or skew elements. It does this by modifying the coordinates of the elements.

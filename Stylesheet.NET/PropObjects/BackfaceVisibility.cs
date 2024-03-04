@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// A backface is a reversed mirror image of the element's front side. The BackfaceVisibility shows the element's back face to the user. This property is used with rotated elements.

@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BackgroundImage property sets the element's background image. By default, the image repeats vertically and horizontally. This property can also specify a color gradient.

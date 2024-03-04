@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The MinWidth property sets the minimum width of an element. It prevents an element from becoming any smaller than the specified value.

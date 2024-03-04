@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The BorderLeftStyle property sets the left border style. Possible values include solid, dashed, dotted, and others. A border-style value is required for any border to display.

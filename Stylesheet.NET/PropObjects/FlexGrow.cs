@@ -1,4 +1,4 @@
-namespace Stylesheet.NET
+namespace StylesheetNET
 {
     /// <summary>
     /// The FlexGrow property sets the growth factor for a flex item. This setting is relevant when space is left inside a container. FlexGrow sets the growth relative to other items.
