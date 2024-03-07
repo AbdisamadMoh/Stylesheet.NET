@@ -87,7 +87,6 @@ namespace Test
             };
 
             sheet.AddFontFace("lilitaone-regular", "font/lilitaone-regular.ttf");
-
             richTextBox2.Text = sheet;
 
 

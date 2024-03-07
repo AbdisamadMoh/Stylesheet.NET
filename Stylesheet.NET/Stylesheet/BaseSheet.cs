@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace StylesheetNET
 {
@@ -142,6 +143,72 @@ namespace StylesheetNET
             return GetCss(minified);
         }
 
+        /// <summary>
+        /// Removes an element from the stylesheet.
+        /// </summary>
+        /// <param name="name">The name, tag, id, class, attribute etc of the element</param>
+        /// <returns></returns>
+        public bool RemoveElement(string name)
+        {
+            if (name.IsNullOrWhiteSpace())
+                return false;
+            for (int i = 0; i < _elements.Count; i++)
+            {
+                var el = _elements.ElementAt(i);
+                if (el.Key.Trim() == name.Trim())
+                {
+                    _elements.Remove(el.Key);
+                    return true;
+                }
+            }
+            return false;
+        }
+        /// <summary>
+        ///  Removes the psuedo of an element from the stylesheet.
+        /// </summary>
+        /// <param name="name">The name, tag, id, class, attribute etc of the element.</param>
+        /// <param name="pseudoType">The type of the pseudo.</param>
+        /// <returns></returns>
+        public bool RemoveElement(string name, PseudoType pseudoType)
+        {
+            if (name.IsNullOrWhiteSpace())
+                return false;
+            var pt = Keywords.GetPseudoByType(pseudoType);
+            for (int i = 0; i < _elements.Count; i++)
+            {
+                var el = _elements.ElementAt(i);
+                if (el.Key.Trim() == name.Trim() + pt)
+                {
+                    _elements.Remove(el.Key);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Removes the psuedo of an element from the stylesheet.
+        /// </summary>
+        /// <param name="name">The name, tag, id, class, attribute etc of the element.</param>
+        /// <param name="pseudoType">The type of the pseudo.</param>
+        /// <param name="psuudoValue">The value of the pseudo e.g. div:nthchild(2)... 2 is the value.</param>
+        /// <returns></returns>
+        public bool RemoveElement(string name, PseudoType pseudoType, string psuudoValue)
+        {
+            if (name.IsNullOrWhiteSpace())
+                return false;
+            var pt = $"{Keywords.GetPseudoByType(pseudoType)}({psuudoValue})";
+            for (int i = 0; i < _elements.Count; i++)
+            {
+                var el = _elements.ElementAt(i);
+                if (el.Key.Trim() == name.Trim() + pt.Trim())
+                {
+                    _elements.Remove(el.Key);
+                    return true;
+                }
+            }
+            return false;
+        }
         protected string GetCss(bool minified)
         {
             string _newLine = minified ? "" : "\n";

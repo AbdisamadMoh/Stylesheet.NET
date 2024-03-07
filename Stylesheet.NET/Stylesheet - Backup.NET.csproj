@@ -18,10 +18,6 @@ Stylesheet.Net has extensive intellisense documentations.</Description>
 
 <PropertyGroup>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>css;stylesheet;style;stylesharp;.net;.net stylesheet;stylesheet.net;stylesheetnet;cssharp;.netcss;cssnet;css.net</PackageTags>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
-    <FileVersion>1.1.0</FileVersion>
-    <Version>1.1.0</Version>
 </PropertyGroup>
 
 </Project>
