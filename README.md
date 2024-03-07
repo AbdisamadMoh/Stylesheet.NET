@@ -21,7 +21,7 @@ We can implement the following CSS styling logic within our C# code using **Styl
 ```css
 @charset "UTF-8";
 @font-face {
-    font-family: lilitaone-regular;
+    font-family: 'lilitaone-regular';
     src: url('font/lilitaone-regular.ttf');
 }
 :root{
