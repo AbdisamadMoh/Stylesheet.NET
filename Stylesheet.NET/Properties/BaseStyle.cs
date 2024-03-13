@@ -12,7 +12,7 @@ namespace StylesheetNET
     {
         #region fields
 
-       internal protected readonly Dictionary<string, string> _css = new Dictionary<string, string>();
+       internal protected readonly StylesheetCustomDictionary<string, string> _css = new StylesheetCustomDictionary<string, string>(true);
 
         #endregion
 
@@ -2260,6 +2260,7 @@ namespace StylesheetNET
             }
             set
             {
+                var cont
                 _css["content"] = value;
             }
         }

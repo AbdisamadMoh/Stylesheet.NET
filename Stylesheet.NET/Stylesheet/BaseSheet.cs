@@ -12,12 +12,12 @@ namespace StylesheetNET
 
         #region fields
 
-        readonly Dictionary<string, Element> _elements = new Dictionary<string, Element>();
+        readonly StylesheetCustomDictionary<string, Element> _elements = new StylesheetCustomDictionary<string, Element>(true);
 
         #endregion
 
         #region Properties/Indexers
-        internal Dictionary<string, Element> Elements
+        internal StylesheetCustomDictionary<string, Element> Elements
         {
             get
             {
