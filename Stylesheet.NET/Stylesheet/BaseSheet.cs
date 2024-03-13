@@ -143,6 +143,27 @@ namespace StylesheetNET
             return GetCss(minified);
         }
 
+        public void AddOrUpdateElement(string name, Element element)
+        {
+            if (name.IsNullOrWhiteSpace())
+                throw new ArgumentNullException("name");
+            if (element == null)
+                throw new ArgumentNullException("name");
+
+            if (_elements.ContainsKey(name))
+            {
+                var el = _elements[name];
+                var css = el._css;
+                foreach (var e in element._css)
+                {
+                    css[e.Key] = e.Value;
+                }
+            }
+            else
+            {
+                this[name] = element;
+            }
+        }
         /// <summary>
         /// Removes an element from the stylesheet.
         /// </summary>

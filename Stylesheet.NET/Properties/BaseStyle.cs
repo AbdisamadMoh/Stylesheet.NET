@@ -12,7 +12,7 @@ namespace StylesheetNET
     {
         #region fields
 
-        readonly Dictionary<string, string> _css = new Dictionary<string, string>();
+       internal protected readonly Dictionary<string, string> _css = new Dictionary<string, string>();
 
         #endregion
 
