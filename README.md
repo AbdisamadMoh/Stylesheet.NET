@@ -9,7 +9,7 @@ It allows you to export both minified and unminified css.
 ![](https://github.com/AbdisamadMoh/Stylesheet.NET/raw/master/2024-03-04-01-36-16-image.png)
 
 ```
- Install-Package Stylesheet.NET -Version 1.1.0
+ Install-Package Stylesheet.NET -Version 1.2.0
 ```
 
 ## Quick Start
