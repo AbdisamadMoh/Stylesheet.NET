@@ -41,7 +41,7 @@ namespace StylesheetNET
                     throw new Exception($"Selector '{_el + value.PseudoSignature}' is not valid.");
 
                 if (value == null)
-                    throw new Exception($"Element can not be null.\nProperty name: {_el}");
+                    throw new Exception($"Element can not be null.\nProperty name: {_el}\n\nIf you intended to remove an element then use RemoveElement(...) method.");
 
                 var name = _el + value.PseudoSignature;
                 _elements[name] = value;
@@ -143,27 +143,6 @@ namespace StylesheetNET
             return GetCss(minified);
         }
 
-        public void AddOrUpdateElement(string name, Element element)
-        {
-            if (name.IsNullOrWhiteSpace())
-                throw new ArgumentNullException("name");
-            if (element == null)
-                throw new ArgumentNullException("name");
-
-            if (_elements.ContainsKey(name))
-            {
-                var el = _elements[name];
-                var css = el._css;
-                foreach (var e in element._css)
-                {
-                    css[e.Key] = e.Value;
-                }
-            }
-            else
-            {
-                this[name] = element;
-            }
-        }
         /// <summary>
         /// Removes an element from the stylesheet.
         /// </summary>
@@ -236,7 +215,7 @@ namespace StylesheetNET
             List<string> _els = new List<string>();
             foreach (var e in _elements)
             {
-                if (e.Value == null)
+                if (e.Value == null || e.Key.IsNullOrWhiteSpace())
                     continue;
                 _els.Add(e.Value.ToString(minified));
             }

@@ -19,9 +19,16 @@ Stylesheet.Net has extensive intellisense documentations.</Description>
 <PropertyGroup>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>css;stylesheet;style;stylesharp;.net;.net stylesheet;stylesheet.net;stylesheetnet;cssharp;.netcss;cssnet;css.net</PackageTags>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
-    <FileVersion>1.1.0</FileVersion>
-    <Version>1.1.0</Version>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Fixed: 'Element is null' when trying to update an element that has not been instantiated.
+Fixed: 'Property is null' when trying to access a property that has not been set.
+Fixed: Content property is empty at CSS level when it is set as empty string. Meaning '' will be set at CSS level if Content is set with empty string in C#.
+
+Added: Element can be updated even if it has not been created.
+Added: Property can be accessed even if it has not been created. But it will return empty string if not set.
+Added: Now elements can be removed from the stylesheet on the go without setting to null.</PackageReleaseNotes>
 </PropertyGroup>
 
 </Project>

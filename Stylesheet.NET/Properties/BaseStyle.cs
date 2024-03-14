@@ -1,7 +1,6 @@
 ﻿
 
 using System;
-using System.Collections.Generic;
 
 namespace StylesheetNET
 {
@@ -12,7 +11,7 @@ namespace StylesheetNET
     {
         #region fields
 
-       internal protected readonly StylesheetCustomDictionary<string, string> _css = new StylesheetCustomDictionary<string, string>(true);
+        internal protected readonly StylesheetCustomDictionary<string, string> _css = new StylesheetCustomDictionary<string, string>(true);
 
         #endregion
 
@@ -2260,8 +2259,10 @@ namespace StylesheetNET
             }
             set
             {
-                var cont
-                _css["content"] = value;
+                var content = value;
+                if (content.IsNullOrWhiteSpace())
+                    content = "''";
+                _css["content"] = content;
             }
         }
 

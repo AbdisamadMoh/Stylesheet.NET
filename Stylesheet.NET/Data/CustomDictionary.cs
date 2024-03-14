@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace StylesheetNET
 {
-    public class StylesheetCustomDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>>
+    public class StylesheetCustomDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey, TValue>> 
     {
         bool _alwaysContainsKey = false;
         public StylesheetCustomDictionary(bool alwaysContainsKey = false)
@@ -17,6 +17,9 @@ namespace StylesheetNET
         {
             get
             {
+           
+                if(key.ToString().IsNullOrWhiteSpace()) throw new ArgumentNullException("Key");
+
                 if (!dict.ContainsKey(key))
                 {
                     if (typeof(TValue) == typeof(string))
@@ -25,7 +28,7 @@ namespace StylesheetNET
                         dict.Add(key, strVal);
                         return strVal;
                     }
-                    var newVal = (TValue)Activator.CreateInstance(typeof(TValue));
+                    var newVal = (TValue)Activator.CreateInstance(typeof(TValue), key);
                     dict.Add(key, newVal);
                     return newVal;
                 }
