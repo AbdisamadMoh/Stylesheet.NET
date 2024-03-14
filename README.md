@@ -9,7 +9,7 @@ It allows you to export both minified and unminified css.
 ![](https://github.com/AbdisamadMoh/Stylesheet.NET/raw/master/2024-03-04-01-36-16-image.png)
 
 ```
- Install-Package Stylesheet.NET -Version 1.0.0
+ Install-Package Stylesheet.NET -Version 1.1.0
 ```
 
 ## Quick Start
@@ -21,7 +21,7 @@ We can implement the following CSS styling logic within our C# code using **Styl
 ```css
 @charset "UTF-8";
 @font-face {
-    font-family: lilitaone-regular;
+    font-family: 'lilitaone-regular';
     src: url('font/lilitaone-regular.ttf');
 }
 :root{
