@@ -1,8 +1,6 @@
 # Stylesheet.Net
 
-**Stylesheet.Net** is a cross-platform .NET library designed for C#, VB.NET, and F# developers. It enables developers to write CSS styles directly in their code, eliminating the need for external stylesheet files. **Stylesheet.Net** provides pre-written implementations for all CSS properties, at-rules, keywords, and other elements, eliminating the need for additional dependencies.
-
-It allows you to export both minified and unminified css.
+**Stylesheet.Net** is a cross-platform .NET library designed to allow developers to define and manage CSS styles entirely within their C#, VB.NET, or F# code. It offers complete, pre-written implementations for all CSS properties, at-rules, keywords, and other elements, ensuring no external dependencies are needed. **The library supports exporting CSS in both minified and unminified versions.**
 
 **Stylesheet.Net** has extensive intellisense documentations.
 
